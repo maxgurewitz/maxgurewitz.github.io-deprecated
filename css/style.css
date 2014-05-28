@@ -8,7 +8,7 @@ body {
     height: auto;
 }
 
-h1 {
+.about_me_head {
     text-align: center;
     font-size: x-large;
     margin-top: 70px;
