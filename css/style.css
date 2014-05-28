@@ -3,13 +3,15 @@
     font-weight: lighter;
 }
 
-h1 {
-    text-align: center;
-    font-size: x-large;
-}
 
 body {
     height: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 70px;
 }
 
 .resume {
@@ -29,11 +31,7 @@ body {
     border-radius:5px;
 }
 
-.about_me {
-    display: inline-block;
-}
-
-p {
+.description {
     display: inline-block;
     vertical-align: top;
     margin: 0px 25px 0px 25px;
@@ -88,4 +86,8 @@ p {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: #929292;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%
 }
