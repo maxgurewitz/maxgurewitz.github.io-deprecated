@@ -1,0 +1,91 @@
+* {
+    font-family: Arial !important;
+    font-weight: lighter;
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+}
+
+body {
+    height: auto;
+}
+
+.resume {
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.portrait {
+    width: 200px;
+    height: auto;
+    display: inline;
+    margin: 0px 50px 0px 50px;
+    vertical-align: top;
+    border-radius:5px;
+}
+
+.about_me {
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 25px 0px 25px;
+    width: 50%;
+    font-size: medium;
+}
+
+.icon {
+    width: 50px;
+    height: auto;
+    -webkit-filter: invert(20%);
+}
+
+.icon:hover {
+    -webkit-filter: invert(45%);
+}
+
+.icons {
+    display: table;
+    margin: 100px auto 0px auto;
+}
+
+.button {
+    font: Arial;
+    -webkit-transition:background .3s;
+    -webkit-transition:color .3s;*/
+    color: black;
+    background: white;
+    outline: 0;
+    width: 200px;
+    height: 40px;
+    border-radius:5px;
+    border: none;
+    margin: 5px auto 5px auto;
+    font-size: medium;
+}
+
+.button:hover {
+    background: #929292;
+    color: #F4F4F4;
+}
+
+.buttons {
+    display: table;
+    margin: auto;
+    height: 30px;
+}
+
+.button_container {
+    background: white;
+    z-index: 2;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #929292;
+}
